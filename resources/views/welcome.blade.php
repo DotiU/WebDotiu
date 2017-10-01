@@ -4,7 +4,7 @@
 <title>dotiU</title>
 
 <div class="container" id="container-right">
-  <h1 id=titulo >dotiU jaja hola</h1>
+  <h1 id=titulo >DotUi title</h1>
   <div class="row">
 
     <div class="col-lg-8">
