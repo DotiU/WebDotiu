@@ -47,28 +47,31 @@
 
 
 
+<form class="form'contact" action="/enviarforo" method="post">
+  {{ csrf_field() }}
+  <div class="form-group">
+      <label for="name">Titulo:</label>
+
+    <input type="text" name="nombre" class="form-control" placeholder="Titulo....">
+  </div>
+
+  <div class="form-group">
+      <label for="description">Mensaje:</label>
+
+ <input type="text" name="descripcion" class="form-control" placeholder="Mensaje....">
+  </div>
 
 
-          <div class="form-group">
-              <label for="name">Titulo:</label>
-
-            <input type="text" name="nombre" class="form-control" placeholder="Titulo....">
-          </div>
-
-          <div class="form-group">
-              <label for="description">Mensaje:</label>
-
-         <input type="text" name="descripcion" class="form-control" placeholder="Mensaje....">
-          </div>
+  <div class="form-group">
+      <button type="submit" class="btn btn-primary">Guardar</button>
+      <a href="foroenviar" class="">Cancelar</a>
+  </div>
+</form>
 
 
-          <div class="form-group">
-              <button type="submit" class="btn btn-primary">Guardar</button>
-              <a href="/admin/producto" class="">Cancelar</a>
-          </div>
 
 
-                              
+
 
   </div>
 

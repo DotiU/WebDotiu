@@ -19,6 +19,15 @@ Route::bind('mensaje',function($idMensaje){
   return App\Mensaje::where('idMensaje',$idMensaje)->first();
 });
 
+
+
+Route::post('/enviar','ContactoController@enviarContacto');
+
+Route::post('/enviarforo','MensajeController@store');
+
+
+
+
 Route::get('foro', [
     'uses' => 'MensajeController@store'
   ]);

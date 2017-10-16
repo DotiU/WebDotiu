@@ -30,15 +30,24 @@
 
 <span class="col"></span>
 
+<div class="row-center" id="carrete-container">
+ <div class="col-sm-4"><img src="/img/carrete1.png" class="img-responsive" alt="" width="50%" id="img-res"><h2>Género</h2><p id="carrete1">dotiU está dirigida a personas <br>de cualquier sexo y edad, pues <br> su interés esta en la disminución <br> del acoso callejero que afecta a <br> la sociedad en general.</p></div>
+<div class="col-sm-4"><img src="/img/carrete2.png" class="img-responsive" alt=""  width="50%" id="img-res"><h2>Ubicación</h2><p id="carrete1">Agrega puntos de acoso en el mapa,<br> de acuerdo a las situaciones que <br> hayas experimentado</p></div>
+  <div class="col-sm-4"><img src="/img/carrete3.png" class="img-responsive" alt=""  width="50%" id="img-res"><h2>Tiempo Real</h2><p id="carrete1">Revisa el mapa para conocer las <br> zonas más riesgosas del país <br>y de esta forma evitar exponerte <br> a situaciones de riesgo.</p></li></div>
 </div>
 
-<section class="section">
+</div>
+
+
+
+<!---
+
   <ul class="carrete">
     <li><img src="/img/carrete1.png" class="img-responsive" alt="" width="73%"><h2>Género</h2><p id="carrete1">dotiU está dirigida a personas <br>de cualquier sexo y edad, pues <br> su interés esta en la disminución <br> del acoso callejero que afecta a <br> la sociedad en general.</p></li>
     <li><img src="/img/carrete2.png" class="img-responsive" alt=""  width="73%"><h2>Ubicación</h2><p id="carrete1">Agrega puntos de acoso en el mapa,<br> de acuerdo a las situaciones que <br> hayas experimentado</p></li>
     <li><img src="/img/carrete3.png" class="img-responsive" alt=""  width="73%"><h2>Tiempo Real</h2><p id="carrete1">Revisa el mapa para conocer las <br> zonas más riesgosas del país <br>y de esta forma evitar exponerte <br> a situaciones de riesgo.</p></li>
   </ul>
-</section>
+</section> --->
 
   <section class="linea">
     <div class="row">
@@ -61,7 +70,7 @@
   </section>
 </div>
 
-<div class="row">
+<div class="row" >
 
   <div class="col-lg-4">
       <img src="/img/stop-icon.png" class="img-responsive" alt="" width="30%" id="imgAcoso" >
@@ -78,20 +87,20 @@
 </section>
 </div>
 
-<div class="row">
+<div class="row" id="galeria-home">
   <div class="col-sm-4">
-    <p>Campaña contra el acoso callejero</p>
+    <center><p>Campaña contra el acoso callejero</p></center>
     <img src="img/img-acoso2.jpeg" class="img-responsive">
     </div>
 
 
   <div class="col-sm-4">
-  <p>Campaña contra el acoso callejero</p>
+    <center><p>Campaña contra el acoso callejero</p></center>
   <img src="img/img-acoso3.jpeg" class="img-responsive">
   </div>
 
   <div class="col-sm-4">
-    <p>Campaña contra el acoso callejero</p>
+    <center><p>Campaña contra el acoso callejero</p></center>
    <img src="img/img-acoso4.jpeg" class="img-responsive">
  </div>
 

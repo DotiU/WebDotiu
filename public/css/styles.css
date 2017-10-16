@@ -560,8 +560,19 @@ margin-bottom: 1%;
   font-style: normal;
 }
 
+#carrete-container{
 
-
+  display: block;
+  margin-top: 6%;
+  margin-bottom: 3%;
+}
+.linea{
+  margin-bottom: 3%;
+}
+#galeria-home{
+  margin-top:  3%;
+  margin-bottom: 3%;
+}
 .flexslider{
 	width: 100%;
 	position: relative;
@@ -925,6 +936,18 @@ margin-bottom: 30px;
     #imgAcoso{
     display: block;
     margin: 0 auto 0 auto;
+    }
+}
+
+@media all and (max-width: 480px){
+    #carrete-container{
+    display: block;
+    margin: 6% 0% 3% 0%;
+    text-align: center;
+
+    }
+    #img-res{
+    margin-left: 25%;
     }
 }
 
