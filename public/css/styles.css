@@ -545,6 +545,11 @@ margin-bottom: 1%;
   .slider {
     margin: 1% 0% 0% 0%;
   }
+  .container{
+    float: inherit;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
 /*............................................. GALERIA */
 *{
 	margin: 0;
