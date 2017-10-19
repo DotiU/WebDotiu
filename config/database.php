@@ -41,6 +41,10 @@ return [
         ],
 
         'mysql' => [
+
+          'read' => [
+       'host' => '185.176.43.49',
+   ],
             'driver' => 'mysql',
             'host' => env('DB_HOST', '185.176.43.49'),
             'port' => env('DB_PORT', '3306'),

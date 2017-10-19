@@ -46,7 +46,7 @@
 
 
 
-
+@if(Auth::check())
 <form class="form'contact" action="/enviarforo" method="post">
   {{ csrf_field() }}
   <div class="form-group">
@@ -61,11 +61,18 @@
  <input type="text" name="descripcion" class="form-control" placeholder="Mensaje....">
   </div>
 
+  <select name="usuario">
+
+  <option>{{ Auth::user()->user }}</option>
+  <option>Anonimo</option>
+  </select>
+
 
   <div class="form-group">
       <button type="submit" class="btn btn-primary">Guardar</button>
       <a href="foroenviar" class="">Cancelar</a>
   </div>
+  @endif
 </form>
 
 
