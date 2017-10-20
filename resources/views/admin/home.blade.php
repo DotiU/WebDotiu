@@ -13,8 +13,8 @@
 
             <div class="col-md-6">
                 <div class="panel">
-                    <i class="fa fa-list-alt icon-home"></i>
-                    <a href="/admin/categoria" class="btn btn-warning btn-block btn-home-admin">FORO ABUSO</a>
+                    <i class="fa fa-comments icon-home"></i>
+                    <a href="/admin/categoria" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>FORO ABUSO</a>
                 </div>
             </div>
 
@@ -23,10 +23,22 @@
             <div class="col-md-6">
                 <div class="panel">
                     <i class="fa fa-users  icon-home"></i>
-                    <a href="/admin/usuario" class="btn btn-warning btn-block btn-home-admin">USUARIOS</a>
+                    <a href="/admin/usuario" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>USUARIOS</a>
                 </div>
             </div>
 
+            <div class="col-md-6">
+                <div class="panel">
+                    <i class="fa fa-file-image-o  icon-home"></i>
+                    <a href="/admin/usuario" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>MULTIMEDIA</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel">
+                    <i class="fa fa-map-marker icon-home"></i>
+                    <a href="/admin/usuario" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>MAPA</a>
+                </div>
+            </div>
 
         </div>
 

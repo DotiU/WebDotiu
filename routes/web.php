@@ -107,7 +107,8 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['auth'], 'prefix' => 'adm
 
 });
 
-
+Route:: resource('admin/categoria','AdminMensajeController');
+Route::resource('admin/usuario', 'AdminUserController');
 Auth::routes();
 
 

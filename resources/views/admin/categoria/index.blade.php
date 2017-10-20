@@ -5,8 +5,8 @@
 <div class="container text-center">
   <div class="page-header">
     <h1>
-      <i class="fa fa-shopping-cart"></i>
-      CATEGORÍAS <a href="categoria/create" class="btn btn-warning"><i class="fa fa-plus-circle"></i> Categoría</a>
+      <i class="fa fa-comments"></i>
+      FORO ABUSO CR <a href="" class="btn btn-primary"><i class="fa fa-plus-circle"></i>&nbsp Mensaje</a>
     </h1>
   </div>
   <div class="page">
@@ -16,27 +16,31 @@
           <tr>
             <th>Editar</th>
             <th>Eliminar</th>
-            <th>Nombre</th>
-            <th>Descripción</th>
-            <th>Color</th>
+            <th>Titulo</th>
+            <th>Mensaje</th>
+            <th>Usuario</th>
+           <th>Fecha</th>
+
           </tr>
         </thead>
         <tbody>
-          @foreach($categories as $categoria)
+          @foreach($mensajes as $mensaje)
             <tr>
               <td>
-                <a href="{{URL::action('Admin\CategoriaController@edit',$categoria->id)}}" class="btn btn-primary">
+                <a href="" class="btn btn-primary">
                   <i class="fa fa-pencil-square"></i>
                 </a>
               </td>
               <td>
-                <a href="{{URL::action('Admin\CategoriaController@destroy',$categoria->id)}}" class="btn btn-danger">
+                <a href="" class="btn btn-danger">
                   <i class="fa fa-trash-o"></i>
 
              </td>
-              <td>{{ $categoria->nombre }}</td>
-              <td>{{ $categoria->descripcion }}</td>
-              <td>{{ $categoria->color }}</td>
+              <td>{{ $mensaje->titulo }}</td>
+              <td>{{ $mensaje->mensaje }}</td>
+              <td>{{ $mensaje->nombreUsuario }}</td>
+              <td>{{ $mensaje->fecha }}</td>
+
             </tr>
 
           @endforeach

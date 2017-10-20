@@ -13,7 +13,7 @@ class UserController extends Controller
 
   public function index(){
     $user = User::all();
-    return view('store.perfil', compact('user'));
+    return view('store.perfil', compact('users'));
 
   }
 

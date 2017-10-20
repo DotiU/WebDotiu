@@ -62,7 +62,6 @@
   </div>
 
   <select name="usuario">
-
   <option>{{ Auth::user()->user }}</option>
   <option>Anonimo</option>
   </select>

@@ -5,8 +5,8 @@
         <div class="page-header">
             <h1>
                 <i class="fa fa-user"></i> USUARIOS
-                <a href="" class="btn btn-warning">
-                    <i class="fa fa-plus-circle"></i> Usuario
+                <a href="" class="btn btn-primary">
+                    <i class="fa fa-plus-circle"></i>&nbsp Usuario
                 </a>
             </h1>
         </div>
@@ -37,7 +37,7 @@
                                 </td>
                                 <td>
 
-                                  <a href="{{URL::action('UsuarioController@destroy',$user->id)}}" class="btn btn-danger">
+                                  <a href="" class="btn btn-danger">
                                     <i class="fa fa-trash-o"></i>
                                 </td>
                                 <td>{{ $user->name }}</td>

@@ -11,11 +11,11 @@ use DB;
 
 use Illuminate\Http\Request;
 
-class MensajeController extends Controller
+class AdminMensajeController extends Controller
 {
   public function index(){
     $mensajes = Mensaje::all();
-    return view('home.foro', compact('mensajes'));
+return view('admin/categoria.index',compact('mensajes'));
 
   }
 
