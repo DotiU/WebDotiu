@@ -3,7 +3,7 @@
 
 <title>dotiU</title>
   <img src="img/img-publicidad.jpg" class="img-responsive " alt="" height="25%">
-<div class="container" >
+<div class="container" id='contenedor-centrado' >
 
 
   <div class="row" id='content-home'>

@@ -8,6 +8,21 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+ /* Small devices (tablets, 768px and up) */
+ @media (min-width: @screen-sm-min) { ... }
+
+ /* Medium devices (desktops, 992px and up) */
+ @media (min-width: @screen-md-min) { ... }
+
+ /* Large devices (large desktops, 1200px and up) */
+ @media (min-width: @screen-lg-min) { ... }
+
+ @media (max-width: @screen-xs-max) { ... }
+ @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+ @media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+ @media (min-width: @screen-lg-min) { ... }
+
+
 
 html {
   line-height: 1.15; /* 1 */
@@ -546,9 +561,8 @@ margin-bottom: 1%;
     margin: 1% 0% 0% 0%;
   }
   .container{
-    float: inherit;
-    display: block;
-    margin: 0 auto 0 auto;
+
+
   }
 /*............................................. GALERIA */
 *{
@@ -1002,6 +1016,8 @@ background-color: #525252;
   text-align: center;
   margin-bottom: 10;
   width: 100%;
+  
+  bottom: 0;
 
 }
 
@@ -1148,4 +1164,8 @@ box-shadow: 0 10px 6px -6px #777;
   font-size: 20px;
   text-align: center;
   font-family: "Source Sans Pro";
+}
+
+#contenedor-centrado{
+  margin: 0 5% auto auto;
 }
