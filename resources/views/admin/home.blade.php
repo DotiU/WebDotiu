@@ -36,7 +36,7 @@
             <div class="col-md-6">
                 <div class="panel">
                     <i class="fa fa-map-marker icon-home"></i>
-                    <a href="/admin/usuario" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>MAPA</a>
+                    <a href="/admin/mapa" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>MAPA</a>
                 </div>
             </div>
 
