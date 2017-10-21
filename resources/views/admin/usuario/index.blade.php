@@ -5,7 +5,7 @@
         <div class="page-header">
             <h1>
                 <i class="fa fa-user"></i> USUARIOS
-                <a href="" class="btn btn-primary">
+                <a href="" class="btn btn-success">
                     <i class="fa fa-plus-circle"></i>&nbsp Usuario
                 </a>
             </h1>
@@ -31,13 +31,13 @@
                         @foreach($users as $user)
                             <tr>
                                 <td>
-                                    <a href="" class="btn btn-primary">
+                                    <a href="" class="btn btn-info">
                                         <i class="fa fa-pencil-square-o"></i>
                                     </a>
                                 </td>
                                 <td>
 
-                                  <a href="" class="btn btn-danger">
+                                  <a href="" class="btn btn-primary">
                                     <i class="fa fa-trash-o"></i>
                                 </td>
                                 <td>{{ $user->name }}</td>

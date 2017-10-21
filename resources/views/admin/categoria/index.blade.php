@@ -6,7 +6,7 @@
   <div class="page-header">
     <h1>
       <i class="fa fa-comments"></i>
-      FORO ABUSO CR <a href="" class="btn btn-primary"><i class="fa fa-plus-circle"></i>&nbsp Mensaje</a>
+      FORO ABUSO CR <a href="" class="btn btn-info"><i class="fa fa-plus-circle"></i>&nbsp Mensaje</a>
     </h1>
   </div>
   <div class="page">
@@ -27,12 +27,12 @@
           @foreach($mensajes as $mensaje)
             <tr>
               <td>
-                <a href="" class="btn btn-primary">
+                <a href="" class="btn btn-success">
                   <i class="fa fa-pencil-square"></i>
                 </a>
               </td>
               <td>
-                <a href="" class="btn btn-danger">
+                <a href="" class="btn btn-primary">
                   <i class="fa fa-trash-o"></i>
 
              </td>

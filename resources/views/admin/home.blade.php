@@ -4,7 +4,7 @@
 
     <div class="container text-center">
         <div class="page-header">
-            <h1><i class="fa fa-rocket"></i> DotiU™ - ADMINISTRADOR</h1>
+            <h1><i class="fa fa-cogs"></i> DotiU™ - ADMINISTRADOR</h1>
         </div>
 
         <h2>Bienvenido(a) {{ Auth::user()->name  }} {{ Auth::user()->last_name }} al Panel de administración de Pagina Web.</h2><hr>
