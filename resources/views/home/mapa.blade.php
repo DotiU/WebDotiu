@@ -37,7 +37,7 @@ mapa-->
       //se podria poner en un archivo externo decss para la parte de styles que es la que le da al mapa
       //sus propios colores y estilo de esta manera el codigo seria mucho mas limpio
       center: {lat: 9.998109, lng: -84.675324},
-      zoom: 16,
+      zoom: 17,
       styles: [
 {
 "featureType": "administrative.country",
