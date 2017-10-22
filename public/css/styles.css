@@ -731,18 +731,9 @@ margin-bottom: 1%;
 #botonInfo{
   margin-top: 8%;
 }
-/************ASUNTO************/
 
 
-
-
-
-
-
-
-
-
-
+/************ACOSO************/
 #navegacion{
   margin-left: 19%;
   margin-top: -2%;
@@ -782,19 +773,24 @@ margin-bottom: 1%;
 margin: -24% 5% 5% 63%;
 
 }
+
 #imgAcoso{
-  margin-top: 2%;
-  margin-left: 45%;
+  margin-top: 5%;
+  margin-left: 30%;
+  width: 220px;
+  height: 200px;
+  margin-bottom: 2%;
 }
+
 .linea{
   display: block;
   background-color: #eeeeee;
 }
+
 #c{
   color: #df2900;
   margin-right: 100%;
 }
-
 
 #first-row h3{
   background-color: #28c9be;
@@ -831,13 +827,13 @@ margin: -24% 5% 5% 63%;
   color: #4d4d4d;
   font-size: 14px;
   padding-top: 30px;
-  padding-left: 50px;
+  padding-left: 20px;
   padding-bottom: 25px;
 }
 
 #second-row p{
   color: #4d4d4d;
-  padding-left: 100px;
+  padding-left: 20px;
   font-size: 14px;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -847,18 +843,17 @@ margin: -24% 5% 5% 63%;
   color: #4d4d4d;
   font-size: 14px;
   padding-top: 30px;
-  padding-left: 50px;
+  padding-left: 20px;
   padding-bottom: 25px;
 }
 
-
-#img-acoso{
+/*#img-acoso{
 width: 250px;
 height: 230px;
 padding-top: 30px;
 margin-left: 75px;
 margin-bottom: 30px;
-}
+}*/
 
 #img-mujer{
 width: 250px;

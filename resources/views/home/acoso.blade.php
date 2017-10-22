@@ -7,7 +7,7 @@
 <head>
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-  <link rel="stylesheet" href="{{asset('css/acoso-styles.css')}}">
+  <link rel="stylesheet" href="{{asset('css/styles.css')}}">
 </head>
 
 <body>
@@ -15,8 +15,8 @@
   <div class="container-fluid">
   <section class="row" id="first-row">
       <h3>¿Qué es el acoso sexual callejero (ASC)?</h3>
-          <div class="col-lg-4">
-            <img src="/img/acoso-icon.png" id='imgAcoso' width="30%" class="img-responsive" alt="Imagen responsive">
+        <div class="col-lg-4">
+        <img src="/img/acoso-icon.png" id='imgAcoso' width="30%" class="img-responsive" alt="Imagen responsive">
           </div>
           <div class="col-xs-12 col-sm-8 col-md-8">
             <p>El ASC se refere a prácticas de connotación sexual que son ejercidas por una persona <br>
@@ -31,7 +31,8 @@
 
     <section class="main row" id="second-row">
       <h3>Consecuencias del Acoso Sexual Callejero</h3>
-      <div class="col-xs-12 col-sm-8 col-md-8">
+      <div class="col-lg-1"></div>
+      <div class="col-xs-12 col-sm-8 col-md-7">
         <p>Puede producir un gran número de efectos mentales negativos en las víctimas. <br><br>
           El acoso de un extraño induce al miedo de la victimización sexual. <br><br>
           Las víctimas suelen revivir intensamente la agresión sufrida. <br><br>
@@ -39,7 +40,7 @@
           Efectos negativos en la salud de las víctimas, como dolores de cabeza o problemas gastrointestinales.</p>
       </div>
       <div class="col-lg-4">
-        <img src="/img/mujer-icon.png"  id='imgAcoso' width="30%" class="img-responsive" alt="Imagen responsive">
+        <img src="/img/mujer-icon.png"  id='imgAcoso' width="28%" class="img-responsive" alt="Imagen responsive">
       </div>
     </section>
 
@@ -62,8 +63,8 @@
     </section>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>-->
 
 </body>
 </html>
