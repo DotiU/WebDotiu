@@ -1,7 +1,5 @@
 @extends('home.template')
 @section('content')
-
-
 <title>@yield('Foro')</title>
 
 
@@ -29,19 +27,10 @@
         <p>{{$mensaje->usuario}}</p>
       <a href="#">Leer más</a>
     </div>
-
-
-
   </div>
   @endforeach
-
-
-
   <div class="page">
-
-
-
-
+<a href="login"><p>Inicia sesión para poder ser parte del Foro Abuso Cr</p></a>
 @if(Auth::check())
 <form class="form'contact" action="/enviarforo" method="post">
   {{ csrf_field() }}
@@ -69,16 +58,7 @@
   </div>
   @endif
 </form>
-
-
-
-
-
-
   </div>
-
-
-
 </div>
 
 @stop
