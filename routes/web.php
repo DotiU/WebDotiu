@@ -75,6 +75,8 @@ Route::get('foro','MensajeController@index');
 Route::get('mapa', function () {
         return View::make('home/mapa');
 });
+
+Route::get('mapa','MapaController@index');
 Route::get('/login', function () {
     return view('login');
 });
@@ -110,7 +112,13 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['auth'], 'prefix' => 'adm
 Route:: resource('admin/categoria','AdminMensajeController');
 Route::resource('admin/usuario', 'AdminUserController');
 Route::resource('admin/mapa', 'AdminMapaController');
+Route::resource('home/mapa', 'MapaController');
 Auth::routes();
+
+
+
+
+
 
 
 

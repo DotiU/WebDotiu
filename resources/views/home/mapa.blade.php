@@ -223,7 +223,7 @@ rotateControl:true,
 ///este codigo nos genera un marcador
     var place = new google.maps.LatLng(9.998109,-84.675324);
 var marker = new google.maps.Marker({
-position: place, title: 'punto de prueba', map: map});
+position: place, title: 'Victima', map: map});
   }
 </script>
 <!--es importante odtener el api de maps ya que sin el nada serviria despues del true en la parte que dice key

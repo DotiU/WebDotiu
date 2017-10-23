@@ -24,20 +24,16 @@
   <div class="row" id=row-contacto2>
     <div class="col-sm-6">
       <h1>{{$mensaje->titulo}}</h1>
-      <h2>{{$mensaje->fecha}}</h2>
+      <h2>{{$mensaje->created_at}}</h2>
       <p>{{$mensaje->mensaje}}</p>
+        <p>{{$mensaje->usuario}}</p>
       <a href="#">Leer más</a>
     </div>
 
-    <div class="col-sm-6">
-      <h1>{{$mensaje->titulo}}</h1>
-      <h2>{{$mensaje->fecha}}</h2>
-      <p>{{$mensaje->mensaje}}</p>
-      <a href="#">Leer más</a>
-    </div>
 
+  @endforeach
   </div>
-    @endforeach
+
 
 
 
@@ -50,15 +46,15 @@
 <form class="form'contact" action="/enviarforo" method="post">
   {{ csrf_field() }}
   <div class="form-group">
-      <label for="name">Titulo:</label>
+      <label for="titulo">Titulo:</label>
 
-    <input type="text" name="nombre" class="form-control" placeholder="Titulo....">
+    <input type="text" name="titulo" class="form-control" placeholder="Titulo....">
   </div>
 
   <div class="form-group">
-      <label for="description">Mensaje:</label>
+      <label for="mensaje">Mensaje:</label>
 
- <input type="text" name="descripcion" class="form-control" placeholder="Mensaje....">
+ <input type="text" name="mensaje" class="form-control" placeholder="Mensaje....">
   </div>
 
   <select name="usuario">

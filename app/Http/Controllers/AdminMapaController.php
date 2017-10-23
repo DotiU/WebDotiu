@@ -12,4 +12,5 @@ class AdminMapaController extends Controller
       $ubicaciones = Mapa::all();
   return view('admin/mapa.index',compact('ubicaciones'));
     }
+
 }

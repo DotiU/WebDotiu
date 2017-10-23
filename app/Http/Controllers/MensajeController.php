@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Mensaje;
 use App\Http\Requests\MensajeFormRequest;
 use DB;
+use Illuminate\Support\Facades\Redirect;
 
 use Illuminate\Http\Request;
 
@@ -37,8 +38,8 @@ public function store(Request $request)
 
  $mensajes->save();
 
+    return Redirect::to('foro');
 
-     return Redirect::to('foro');
   }
 
 }
