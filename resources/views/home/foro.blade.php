@@ -15,7 +15,7 @@
     </div>
 
     <div class="col-sm-6">
-      <h1>Compartir Testimonio>></h1>
+      <h1>Compartir Testimonio</h1>
     </div>
 
   </div>
@@ -31,9 +31,9 @@
     </div>
 
 
-  @endforeach
-  </div>
 
+  </div>
+  @endforeach
 
 
 
