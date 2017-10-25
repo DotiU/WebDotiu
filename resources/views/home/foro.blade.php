@@ -30,7 +30,7 @@
   </div>
   @endforeach
   <div class="page">
-<a href="login"><p>Inicia sesión para poder ser parte del Foro Abuso Cr</p></a>
+<a href="login"><p>Inicia sesión para poder ser parte del Foro Abuso CR</p></a>
 @if(Auth::check())
 <form class="form'contact" action="/enviarforo" method="post">
   {{ csrf_field() }}
@@ -48,7 +48,7 @@
 
   <select name="usuario">
   <option>{{ Auth::user()->user }}</option>
-  <option>Anonimo</option>
+  <option>Anónimo</option>
   </select>
 
 
