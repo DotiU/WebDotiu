@@ -33,6 +33,8 @@ mapa-->
   function initMap() {
     ///esto crea el mapa
     map = new google.maps.Map(document.getElementById('map'), {
+      var geocoder = new google.maps.Geocoder;
+      var infowindow = new google.maps.InfoWindow;
       //aqui dentro podemos definir sus atributos y propiedades asi como sus tipos de funciones
       //se podria poner en un archivo externo decss para la parte de styles que es la que le da al mapa
       //sus propios colores y estilo de esta manera el codigo seria mucho mas limpio

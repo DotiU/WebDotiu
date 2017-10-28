@@ -19,6 +19,11 @@ Route::bind('mensaje',function($idMensaje){
   return App\Mensaje::where('idMensaje',$idMensaje)->first();
 });
 
+Route::resource('admin/categoria','AdminMensajeController');
+Route::resource('admin/usuario', 'AdminUserController');
+Route::resource('admin/mapa', 'AdminMapaController');
+Route::resource('home/mapa', 'MapaController');
+
 
 
 Route::post('/enviar','ContactoController@enviarContacto');
@@ -77,6 +82,7 @@ Route::get('mapa', function () {
 });
 
 Route::get('mapa','MapaController@index');
+
 Route::get('/login', function () {
     return view('login');
 });
@@ -85,8 +91,8 @@ Route::get('enviar.php', function () {
     return view('enviar');
 });
 
-Route::get('/register', function () {
-    return view('register');
+Route::get('/registro', function () {
+    return view('auth/registro');
 });
 
 route::get('admin/home', function(){
@@ -109,10 +115,7 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['auth'], 'prefix' => 'adm
 
 });
 
-Route:: resource('admin/categoria','AdminMensajeController');
-Route::resource('admin/usuario', 'AdminUserController');
-Route::resource('admin/mapa', 'AdminMapaController');
-Route::resource('home/mapa', 'MapaController');
+
 Auth::routes();
 
 

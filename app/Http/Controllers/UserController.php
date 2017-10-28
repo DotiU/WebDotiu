@@ -22,4 +22,18 @@ class UserController extends Controller
     $user = User::where('id', $id)->first();
     return view('store.perfil', compact('user'));
   }
+
+  public function store(Request $request)
+  {
+
+      $mensajes = new Mensaje;
+       $mensajes->titulo=$request->get('titulo');
+        $mensajes->mensaje=$request->get('mensaje');
+          $mensajes->usuario=$request->get('usuario');
+
+   $mensajes->save();
+
+      return Redirect::to('foro');
+
+    }
 }

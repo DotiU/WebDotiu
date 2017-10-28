@@ -37,7 +37,7 @@
                                 </td>
                                 <td>
 
-                                  <a href="" class="btn btn-primary">
+                                  <a href="{{URL::action('AdminUserController@destroy',$user->id)}}" class="btn btn-primary">
                                     <i class="fa fa-trash-o"></i>
                                 </td>
                                 <td>{{ $user->name }}</td>
