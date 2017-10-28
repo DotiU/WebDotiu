@@ -2,7 +2,7 @@
 @section('content')
 <div class="imagen-contacto">
 
-	<form class="form-contact" action="/enviar" method="post">
+	<form class="form-contact" action="/enviarContacto" method="post">
 		{{ csrf_field() }}
 		<h2 id=h2-contact>Contacto</h2>
 		<input id="input-contact" type="text" name="nombre" placeholder="Nombre" required>

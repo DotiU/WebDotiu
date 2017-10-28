@@ -15,11 +15,11 @@ Route::bind('user',function($id){
   return App\User::where('id',$id)->first();
 });
 
-Route::bind('mensaje',function($idMensaje){
-  return App\Mensaje::where('idMensaje',$idMensaje)->first();
+Route::bind('mensaje',function($id){
+  return App\Mensaje::where('id',$id)->first();
 });
 
-Route::resource('admin/categoria','AdminMensajeController');
+Route::resource('admin/mensaje','AdminMensajeController');
 Route::resource('admin/usuario', 'AdminUserController');
 Route::resource('admin/mapa', 'AdminMapaController');
 Route::resource('home/mapa', 'MapaController');
@@ -29,6 +29,7 @@ Route::resource('home/mapa', 'MapaController');
 Route::post('/enviar','ContactoController@enviarContacto');
 
 Route::post('/enviarforo','MensajeController@store');
+Route::post('/enviarContacto','ContactoController@store');
 
 
 

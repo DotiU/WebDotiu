@@ -32,13 +32,13 @@
                 </a>
               </td>
               <td>
-                <a href="" class="btn btn-primary">
+                <a href="{{URL::action('AdminMensajeController@destroy',$mensaje->id)}}" class="btn btn-primary">
                   <i class="fa fa-trash-o"></i>
 
              </td>
               <td>{{ $mensaje->titulo }}</td>
               <td>{{ $mensaje->mensaje }}</td>
-              <td>{{ $mensaje->nombreUsuario }}</td>
+              <td>{{ $mensaje->nombreUsuario}}</td>
               <td>{{ $mensaje->fecha }}</td>
 
             </tr>

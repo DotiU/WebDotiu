@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers;
 
-
+use Illuminate\Support\Facades\Input;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Mensaje;
 use App\Http\Requests\MensajeFormRequest;
 use DB;
+use Illuminate\Support\Facades\Redirect;
 
 use Illuminate\Http\Request;
 
@@ -15,7 +16,7 @@ class AdminMensajeController extends Controller
 {
   public function index(){
     $mensajes = Mensaje::all();
-return view('admin/categoria.index',compact('mensajes'));
+return view('admin/mensaje.index',compact('mensajes'));
 
   }
 
@@ -40,5 +41,18 @@ public function store(Request $request)
 
      return Redirect::to('foro');
   }
+
+  public function destroy(MensajeFormRequest $request,$id)
+  {
+    $mensaj =Mensaje::find($id);
+
+    $post->delete();
+
+    return Redirect::to('admin/mensaje');
+  }
+
+
+
+
 
 }
