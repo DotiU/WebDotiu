@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' =>  'new',
 
     /*
     |--------------------------------------------------------------------------
@@ -40,21 +40,16 @@ return [
             'prefix' => '',
         ],
 
-        'mysql' => [
+        'new' => [
 
-          'read' => [
-       'host' => '185.176.43.49',
-   ],
-   'write' => [
-        'host' => '185.176.43.49'
-    ],
+
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '185.176.43.49'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', '2445951_app'),
-            'username' => env('DB_USERNAME', '2445951_app'),
-            'password' => env('DB_PASSWORD', 'znay1094'),
-            'unix_socket' => env('DB_SOCKET', ''),
+            'host' =>  '185.176.43.49',
+            'port' => '3306',
+            'database' => '2445951_app',
+            'username' => '2445951_app',
+            'password' => 'znay1094',
+            'unix_socket' => '',
             'charset' => 'utf8mb4',
             'collation' => 'latin1_swedish_ci',
             'prefix' => '',
