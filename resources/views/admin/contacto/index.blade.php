@@ -6,7 +6,7 @@
   <div class="page-header">
     <h1>
       <i class="fa fa-comments"></i>
-      FORO ABUSO CR <a href="" class="btn btn-info"><i class="fa fa-plus-circle"></i>&nbsp Mensaje</a>
+    Mensajes Recibidos <a href="" class="btn btn-info"><i class="fa fa-plus-circle"></i></a>
     </h1>
   </div>
   <div class="page">
@@ -14,32 +14,31 @@
       <table class="table table-striped table-bordered table-hover">
         <thead>
           <tr>
-            <th>Editar</th>
+
             <th>Eliminar</th>
-            <th>Titulo</th>
-            <th>Mensaje</th>
-            <th>Usuario</th>
-           <th>Fecha</th>
+            <th>Nombre Remitente</th>
+            <th>Correo Electronico</th>
+            <th>Asunto</th>
+              <th>Mensaje</th>
+
+           <th>Fecha y Hora de Envio</th>
 
           </tr>
         </thead>
         <tbody>
-          @foreach($mensajes as $mensaje)
+          @foreach($contactos as $contacto)
             <tr>
+
               <td>
-                <a href="" class="btn btn-success">
-                  <i class="fa fa-pencil-square"></i>
-                </a>
-              </td>
-              <td>
-                <a href="{{URL::action('AdminMensajeController@destroy',$mensaje->id)}}" class="btn btn-primary">
+                <a href="{{URL::action('ContactoController@destroy',$contacto->id)}}" class="btn btn-primary">
                   <i class="fa fa-trash-o"></i>
 
              </td>
-              <td>{{ $mensaje->titulo }}</td>
-              <td>{{ $mensaje->mensaje }}</td>
-              <td>{{ $mensaje->nombreUsuario}}</td>
-              <td>{{ $mensaje->fecha }}</td>
+              <td>{{ $contacto->nombre }}</td>
+              <td>{{ $contacto->correo }}</td>
+              <td>{{ $contacto->asunto}}</td>
+                <td>{{ $contacto->mensaje}}</td>
+              <td>{{ $contacto->created_at }}</td>
 
             </tr>
 

@@ -73,7 +73,7 @@
       </div>
 
     </div>
-
+<a href="/admin/home"><button class="btn btn-primary" type="button" name="button"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i>&nbsp Menú Principal</button></a>
   </div>
 
   @stop

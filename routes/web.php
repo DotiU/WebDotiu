@@ -22,6 +22,7 @@ Route::bind('mensaje',function($id){
 Route::resource('admin/mensaje','AdminMensajeController');
 Route::resource('admin/usuario', 'AdminUserController');
 Route::resource('admin/mapa', 'AdminMapaController');
+Route::resource('admin/contacto', 'ContactoController');
 Route::resource('home/mapa', 'MapaController');
 
 
@@ -39,6 +40,7 @@ Route::get('foro', [
   ]);
 
 Route::get('foro','ForoController@index');
+Route::get('contacto','ContactoController@index');
 
 Route::get('/', function () {
     return view('welcome');

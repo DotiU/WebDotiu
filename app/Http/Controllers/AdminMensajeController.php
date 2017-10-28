@@ -17,8 +17,7 @@ class AdminMensajeController extends Controller
   public function index(){
     $mensajes = Mensaje::all();
 return view('admin/mensaje.index',compact('mensajes'));
-
-  }
+}
 
   public function create()
   {
@@ -26,33 +25,23 @@ return view('admin/mensaje.index',compact('mensajes'));
         return view('admin/producto/create');
   }
 
-
-
 public function store(Request $request)
 {
 
     $mensajes = new Mensaje;
-     $mensajes->titulo=$request->get('titulo');
-      $mensajes->mensaje=$request->get('mensaje');
-        $mensajes->usuario=$request->get('usuario');
-
- $mensajes->save();
-
-
-     return Redirect::to('foro');
+    $mensajes->titulo=$request->get('titulo');
+    $mensajes->mensaje=$request->get('mensaje');
+    $mensajes->usuario=$request->get('usuario');
+    $mensajes->save();
+    return Redirect::to('foro');
   }
 
-  public function destroy(MensajeFormRequest $request,$id)
+
+  public function show(MensajeFormRequest $request,$id)
   {
-    $mensaj =Mensaje::find($id);
-
-    $post->delete();
-
-    return Redirect::to('admin/mensaje');
+    $mensajes=Mensaje::find($id);
+    $mensajes->delete();
+return Redirect::to('admin/mensaje');
   }
-
-
-
-
 
 }

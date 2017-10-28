@@ -40,18 +40,21 @@ Mail::to('dotiucr@gmail.com')->send(new ContactoEmail($request));
       $contactos->asunto=$request->get('asunto');
       $contactos->mensaje=$request->get('mensaje');
       $contactos->save();
-
-
-       return Redirect::to('contact');
+return Redirect::to('contact');
     }
 
     public function destroy(ContactoFormRequest $request,$id)
     {
-      $mensaj =Mensaje::find($id);
+      $contactos =Contacto::find($id);
 
       $post->delete();
 
-      return Redirect::to('admin/mensaje');
+      return Redirect::to('admin/contacto');
     }
-
+    public function show(ContactoFormRequest $request,$id)
+    {
+      $contactos=Contacto::find($id);
+      $contactos->delete();
+  return Redirect::to('admin/contacto');
+    }
 }

@@ -2,6 +2,7 @@
 
 @section('content')
 
+
 <title>@yield('Administrador','dotiU™')</title>
 
     <div class="container text-center">
@@ -45,7 +46,7 @@
             <div class="col-md-12">
                 <div class="panel">
                     <i class="fa fa-commenting-o icon-home"></i>
-                    <a href="/admin/mapa" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>MENSAJES</a>
+                    <a href="/admin/contacto" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>MENSAJES</a>
                 </div>
             </div>
 
