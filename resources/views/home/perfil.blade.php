@@ -21,7 +21,7 @@
   <div class="product-info panel" id='info'>
   <h1>Nombre:{{ Auth::user()->name }} </h1> <i class=""> </i>
   <p>Usuario:{{ Auth::user()->user }} </p> <i class="fa fa-pencil 2x"></i>
-  <p>Direccion:{{ Auth::user()->addres }} </p>
+  <p>Direccion:{{ Auth::user()->address }} </p>
   <p>Fecha de Ingreso:{{ Auth::user()->created_at }} </p>
 
 

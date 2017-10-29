@@ -26,7 +26,7 @@ Route::resource('admin/contacto', 'ContactoController');
 Route::resource('admin/usuario/', 'AdminUserController');
 Route::resource('home/mapa', 'MapaController');
 
-
+Route::post('/registrarse','UserController@store');
 
 Route::post('/enviar','ContactoController@enviarContacto');
 

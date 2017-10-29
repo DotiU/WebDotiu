@@ -27,30 +27,36 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-12">
+
 <form  action="/registrarse" method="post" role="form" >
+
+  <input type="hidden" name="_token" value="{{ csrf_token() }}">
     <div class="form-group">
-        <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Usuario" value="">
+        <input type="text" name="user" id="username" tabindex="1" class="form-control" placeholder="Usuario" value="">
     </div>
     <div class="form-group">
         <input type="text" name="name" id="name" tabindex="1" class="form-control" placeholder="Nombre" value="">
     </div>
     <div class="form-group">
-        <input type="text" name="lastname" id="lastname" tabindex="1" class="form-control" placeholder="Apellidos" value="">
+        <input type="text" name="last_name" id="lastname" tabindex="1" class="form-control" placeholder="Apellidos" value="">
     </div>
     <div class="form-group">
         <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Correo Electronico" value="">
     </div>
     <div class="form-group">
-        <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+        <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Contraseña">
     </div>
     <div class="form-group">
-        <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+        <input type="text" name="address" id="address" tabindex="2" class="form-control" placeholder="Direccion">
     </div>
-    <div class="form-group" style="display:none;">
-        <input type="" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder= style="display:none;" value="usuario">
+    <div class="form-group">
+        <input type="text" name="type" id="type" tabindex="2" class="form-control" placeholder="" value="user" style="display:none;">
     </div>
-  
 
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <a href="foroenviar" class="">Cancelar</a>
+    </div>
 
 </form>
 

@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers;
 
-
+use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\User;
 use DB;
-
+use Hash;
+use Illuminate\Support\Facades\Redirect;
 class UserController extends Controller
 {
 
@@ -35,6 +36,6 @@ class UserController extends Controller
       $users->type=$request->get('type');
 
       $users->save();
-      return Redirect::to('home');
+      return Redirect::to('login');
     }
 }
