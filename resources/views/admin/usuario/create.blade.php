@@ -1,12 +1,12 @@
-@extends('admin.template')
+@extends('home.template')
 
 @section('content')
 
 	<div class="container text-center">
 		<div class="page-header">
 			<h1>
-				<i class="fa fa-shopping-cart"></i>
-				CATEGORÍAS <small>[Agregar categoría]</small>
+				<i class="fa fa-users "></i>
+				Usuarios <small>[Agregar Usuario]</small>
 			</h1>
 		</div>
 
@@ -16,34 +16,65 @@
                 <div class="page">
 
 
-								     {!! Form::open(['action'=>'Admin\CategoriaController@store']) !!}
+								    {!! Form::open(['action'=>'AdminUserController@store']) !!}
 
 										 <div class="form-group">
 									 		<label for="nombre">
 									 			Nombre
 									 		</label>
-									 		<input type="text" name="nombre" class="form-control" placeholder="Nombre....">
+									 		<input type="text" name="name" class="form-control" placeholder="Nombre....">
 									 	</div>
+
+										<div class="form-group">
+									 	<label for="last_name">
+									 		Apellidos
+									 	</label>
+									 	<input type="text" name="last_name" class="form-control" placeholder="Apellidos....">
+									 </div>
+
+									 <div class="form-group">
+								 	<label for="email">
+								 		Correo Electronico
+								 	</label>
+								 	<input type="text" name="email" class="form-control" placeholder="Correo Electronico....">
+								  </div>
+
+									<div class="form-group">
+									<label for="user">
+									 Usuario
+									</label>
+									<input type="text" name="user" class="form-control" placeholder="Usuario....">
+									</div>
+
+									<div class="form-group">
+									<label for="password">
+									 Contraseña
+									</label>
+									<input type="password" name="password" class="form-control" placeholder="Contreseña....">
+									</div>
+
 									 	<div class="form-group">
-									 		<label for="descripcion">
-									 			Descripción
+									 		<label for="address">
+									 			Direccion
 									 		</label>
-									 		<input type="text" name="descripcion" class="form-control" placeholder="Descripcion....">
+									 		<input type="text" name="address" class="form-control" placeholder="Descripcion....">
 									 	</div>
 
-<div class="form-group">
-		<label for="color">Color:</label>
+										<div class="form-group">
+										<label for="type">
+										 Tipo Usuario
+										</label>
+										<input type="text" name="type" class="form-control" placeholder="Administrador/Usuario">
+										</div>
 
-		<input type="color" name="color" class="form-control">
-</div>
+
 
 <div class="form-group">
 		<button type="submit" class="btn btn-primary">Guardar</button>
-		<a href="/admin/categoria" class="btn btn-warning">Cancelar</a>
+		<a href="/admin/usuario" class="btn btn-warning">Cancelar</a>
 </div>
 
-
-                    {!! Form::close() !!}
+    {!! Form::close() !!}
 
                 </div>
 

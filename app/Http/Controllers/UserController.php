@@ -25,15 +25,16 @@ class UserController extends Controller
 
   public function store(Request $request)
   {
+      $users = new User;
+      $users->name=$request->get('name');
+      $users->last_name=$request->get('last_name');
+      $users->email=$request->get('email');
+      $users->user=$request->get('user');
+      $users->password=Hash::make($request->get('password'));
+      $users->address=$request->get('address');
+      $users->type=$request->get('type');
 
-      $mensajes = new Mensaje;
-       $mensajes->titulo=$request->get('titulo');
-        $mensajes->mensaje=$request->get('mensaje');
-          $mensajes->usuario=$request->get('usuario');
-
-   $mensajes->save();
-
-      return Redirect::to('foro');
-
+      $users->save();
+      return Redirect::to('home');
     }
 }

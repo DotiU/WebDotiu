@@ -1,12 +1,12 @@
-@extends('admin.template')
+@extends('home.template')
 
 @section('content')
 
 	<div class="container text-center">
 		<div class="page-header">
 			<h1>
-				<i class="fa fa-shopping-cart"></i>
-				CATEGORÍAS <small>[Agregar categoría]</small>
+				<i class="fa fa-users "></i>
+				Usuarios <small>[Agregar Usuario]</small>
 			</h1>
 		</div>
 
@@ -16,7 +16,7 @@
                 <div class="page">
 
 
-								     {!! Form::open(['action'=>'Admin\CategoriaController@store']) !!}
+								     {!! Form::open(['action'=>'Admin\AdminUserController@store']) !!}
 
 										 <div class="form-group">
 									 		<label for="nombre">

@@ -5,7 +5,7 @@
         <div class="page-header">
             <h1>
                 <i class="fa fa-user"></i> USUARIOS
-                <a href="" class="btn btn-success">
+                <a href="usuario/create" class="btn btn-success">
                     <i class="fa fa-plus-circle"></i>&nbsp Usuario
                 </a>
             </h1>

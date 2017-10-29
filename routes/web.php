@@ -23,6 +23,7 @@ Route::resource('admin/mensaje','AdminMensajeController');
 Route::resource('admin/usuario', 'AdminUserController');
 Route::resource('admin/mapa', 'AdminMapaController');
 Route::resource('admin/contacto', 'ContactoController');
+Route::resource('admin/usuario/', 'AdminUserController');
 Route::resource('home/mapa', 'MapaController');
 
 
@@ -32,12 +33,16 @@ Route::post('/enviar','ContactoController@enviarContacto');
 Route::post('/enviarforo','MensajeController@store');
 Route::post('/enviarContacto','ContactoController@store');
 
-
+Route::get('usuario/create', function () {
+        return View::make('admin/usuario/create');
+});
 
 
 Route::get('foro', [
     'uses' => 'MensajeController@store'
   ]);
+
+
 
 Route::get('foro','ForoController@index');
 Route::get('contacto','ContactoController@index');

@@ -9,7 +9,7 @@ use DB;
 use Illuminate\Support\Facades\Input;
 use App\Http\Requests\UsuarioFormRequest;
 use Illuminate\Support\Facades\Redirect;
-
+use Hash;
 class AdminUserController extends Controller
 {
   public function index(){
@@ -35,4 +35,27 @@ return Redirect::to('admin/usuario');
   }
 
 
+
+  public function create()
+  {
+
+        return view('admin/usuario/create');
+  }
+
+public function store(Request $request)
+{
+
+
+    $users = new User;
+    $users->name=$request->get('name');
+    $users->last_name=$request->get('last_name');
+    $users->email=$request->get('email');
+    $users->user=$request->get('user');
+    $users->password=Hash::make($request->get('password'));
+    $users->address=$request->get('address');
+    $users->type=$request->get('type');
+
+    $users->save();
+    return Redirect::to('admin/usuario');
+  }
 }
