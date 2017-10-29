@@ -49,14 +49,9 @@
     <div class="form-group" style="display:none;">
         <input type="" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder= style="display:none;" value="usuario">
     </div>
-    <div class="form-group">
-        <div class="row">
-        <center>  <button type="submit" class="btn btn-primary">
-            Registrarse
-          </button></center>
+  
 
-        </div>
-    </div>
+
 </form>
 
 </div>

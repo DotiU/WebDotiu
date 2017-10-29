@@ -6,7 +6,7 @@
   <div class="page-header">
     <h1>
       <i class="fa fa-comments"></i>
-    Mensajes Recibidos <a href="" class="btn btn-info"><i class="fa fa-plus-circle"></i></a>
+    Mensajes Recibidos <a href=""></a>
     </h1>
   </div>
   <div class="page">

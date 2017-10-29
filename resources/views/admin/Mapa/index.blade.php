@@ -11,8 +11,8 @@
   <div class="container text-center">
     <div class="page-header">
       <h1>
-        <i class="fa fa-comments"></i>
-        FORO ABUSO CR <a href="" class="btn btn-info"><i class="fa fa-plus-circle"></i>&nbsp Mensaje</a>
+        <i class="fa fa-map-marker"></i>
+        Marcadores Registrados<a href="" class=""></a>
       </h1>
     </div>
     <div class="page">
@@ -20,7 +20,7 @@
         <table class="table table-striped table-bordered table-hover">
           <thead>
             <tr>
-              <th>Editar</th>
+
               <th>Eliminar</th>
               <th>Ubicacion</th>
 
@@ -33,13 +33,9 @@
             @foreach($ubicaciones as $ubicacion)
 
               <tr>
+
                 <td>
-                  <a href="" class="btn btn-success">
-                    <i class="fa fa-pencil-square"></i>
-                  </a>
-                </td>
-                <td>
-                  <a href="" class="btn btn-primary">
+                  <a href="{{URL::action('AdminMapaController@destroy',$ubicacion->id)}}" class="btn btn-primary">
                     <i class="fa fa-trash-o"></i>
 
                </td>

@@ -26,14 +26,14 @@
             <div class="col-md-6">
                 <div class="panel">
                     <i class="fa fa-users  icon-home"></i>
-                    <a href="/admin/contacto" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>USUARIOS</a>
+                    <a href="/admin/usuario" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>USUARIOS</a>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="panel">
                     <i class="fa fa-file-image-o  icon-home"></i>
-                    <a href="/admin/usuario" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>MULTIMEDIA</a>
+                    <a href="/admin/multimedia" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>MULTIMEDIA</a>
                 </div>
             </div>
             <div class="col-md-6">

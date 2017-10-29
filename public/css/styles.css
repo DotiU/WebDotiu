@@ -1011,7 +1011,10 @@ background-color: #525252;
   text-align: center;
   margin-bottom: 10;
   width: 100%;
-  bottom: 0;
+
+
+ 
+  bottom:0;
 
    -webkit-box-sizing:border-box;
    -moz-box-sizing:border-box;
@@ -1020,6 +1023,10 @@ background-color: #525252;
 
 
 
+}
+#footer, #push {
+    height: 150px; /* la altura del push es la misma que la altura
+    del footer */
 }
 
 footer .redes li {
