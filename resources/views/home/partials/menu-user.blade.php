@@ -5,8 +5,19 @@
 		</a>
 
 		<ul class="dropdown-menu" role="menu" id="children">
+			@if(Auth::user()->type=='admin')
+
+					<li><a href="perfil">Ver Perfil</a></li>
+					<li><a href="admin/home">Vista Administrador</a></li>
+					<li><a href="{{route('logout')}}">Finalizar sesión</a></li>
+
+			@else
 			<li><a href="perfil">Ver Perfil</a></li>
 			<li><a href="{{route('logout')}}">Finalizar sesión</a></li>
+
+
+@endif
+
 
 		</ul>
 
@@ -22,4 +33,6 @@
 
 		</ul>
 	</li>
+
+
 @endif
