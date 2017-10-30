@@ -40,7 +40,7 @@ return [
             'prefix' => '',
         ],
 
-        'mysql' => [
+        'new' => [
 
 
           'driver' => 'mysql',
