@@ -15,9 +15,8 @@
 <link rel="stylesheet" href="{{asset('css/styles.css')}}">
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 
-@include('home.partials.nav')
+@include('admin.partials.nav')
 @yield('content')
-
 @include('home.partials.footer')
 
 

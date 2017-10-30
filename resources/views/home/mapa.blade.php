@@ -7,7 +7,6 @@
 
 <!DOCTYPE html>
 <html>
-<title>dotiU™-Mapa</title>
 <head>
 <meta name="viewport" content="initial-scale=1.0">
 <meta charset="utf-8">
@@ -34,8 +33,6 @@ mapa-->
   function initMap() {
     ///esto crea el mapa
     map = new google.maps.Map(document.getElementById('map'), {
-      var geocoder = new google.maps.Geocoder;
-      var infowindow = new google.maps.InfoWindow;
       //aqui dentro podemos definir sus atributos y propiedades asi como sus tipos de funciones
       //se podria poner en un archivo externo decss para la parte de styles que es la que le da al mapa
       //sus propios colores y estilo de esta manera el codigo seria mucho mas limpio
@@ -226,7 +223,7 @@ rotateControl:true,
 ///este codigo nos genera un marcador
     var place = new google.maps.LatLng(9.998109,-84.675324);
 var marker = new google.maps.Marker({
-position: place, title: 'Victima', map: map});
+position: place, title: 'punto de prueba', map: map});
   }
 </script>
 <!--es importante odtener el api de maps ya que sin el nada serviria despues del true en la parte que dice key

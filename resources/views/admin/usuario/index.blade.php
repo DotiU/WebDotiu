@@ -32,7 +32,7 @@
                         @foreach($users as $user)
                             <tr>
                                 <td>
-                                    <a href="" class="btn btn-info">
+                                    <a href="{{URL::action('AdminUserController@edit',$user->id)}}" class="btn btn-info">
                                         <i class="fa fa-pencil-square-o"></i>
                                     </a>
                                 </td>

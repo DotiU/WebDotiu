@@ -58,4 +58,26 @@ public function store(Request $request)
     $users->save();
     return Redirect::to('admin/usuario');
   }
+
+  public function update(ProductoFormRequest $request,$id)
+  {
+    $users= User::findOrFail($id);
+    $users->name=$request->get('name');
+    $users->last_name=$request->get('last_name');
+    $users->email=$request->get('email');
+    $users->user=$request->get('user');
+    $users->password=Hash::make($request->get('password'));
+    $users->address=$request->get('address');
+    $users->type=$request->get('type');
+    $users->update();
+
+      return Redirect::to('/admin/usuario');
+
+  }
+
+  public function edit($id)
+  {
+    $users=User::findOrFail($id);
+    return view("admin/usuario/edit",["user"=>$users]);
+  }
 }
