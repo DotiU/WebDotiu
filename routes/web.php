@@ -19,11 +19,7 @@ Route::bind('mensaje',function($id){
   return App\Mensaje::where('id',$id)->first();
 });
 
-Route::resource('admin/mensaje','AdminMensajeController');
-Route::resource('admin/usuario', 'AdminUserController');
-Route::resource('admin/mapa', 'AdminMapaController');
-Route::resource('admin/contacto', 'ContactoController');
-Route::resource('admin/usuario/', 'AdminUserController');
+
 Route::resource('home/mapa', 'MapaController');
 
 Route::post('/registrarse','UserController@store');
@@ -109,18 +105,16 @@ route::get('admin/home', function(){
 });
 
 
-Route::group(['namespace' => 'Admin', 'middleware' => ['auth'], 'prefix' => 'admin'], function()
-{
+Route::group(['middleware' => 'admin'], function () {
+  Route::resource('admin/mensaje','AdminMensajeController');
+  Route::resource('admin/usuario', 'AdminUserController');
+  Route::resource('admin/mapa', 'AdminMapaController');
+  Route::resource('admin/contacto', 'ContactoController');
+  Route::resource('admin/usuario/', 'AdminUserController');
+  route::get('admin/home', function(){
+    return view('admin/home');
 
-	Route::get('home', function(){
-		return view('admin.home');
-	});
-
-
-
-
-
-
+  });
 });
 
 

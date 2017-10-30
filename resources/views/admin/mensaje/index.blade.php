@@ -1,7 +1,7 @@
 @extends('admin.template')
 
 @section('content')
-
+<title>dotiU™-Administrador-Foro</title>
 <div class="container text-center">
   <div class="page-header">
     <h1>

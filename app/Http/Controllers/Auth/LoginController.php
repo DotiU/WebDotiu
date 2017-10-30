@@ -37,11 +37,11 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
-    /*public function redirectPath()
+    public function redirectPath()
     {
       if(auth()->user()->type=='admin'){
-        return '/admin/home';
+        return 'admin/home';
       }
-      return 'http://localhost:8000';
-  }*/
+      return '/';
+  }
 }

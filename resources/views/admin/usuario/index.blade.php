@@ -1,6 +1,7 @@
 @extends('admin.template')
 
 @section('content')
+<title>dotiU™-Administrador-Usuario</title>
     <div class="container text-center">
         <div class="page-header">
             <h1>
@@ -55,7 +56,11 @@
             <hr>
 
 
-
+          </div>
+        <a href="/admin/home"><button class="btn btn-primary" type="button" name="button"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i>&nbsp Menú Principal</button></a>
         </div>
+        </div>
+
     </div>
+
 @stop

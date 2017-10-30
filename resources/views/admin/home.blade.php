@@ -3,7 +3,7 @@
 @section('content')
 
 
-<title>@yield('Administrador','dotiU™')</title>
+<title>dotiU™-Administrador</title>
 
     <div class="container text-center">
         <div class="page-header">

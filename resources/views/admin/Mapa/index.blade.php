@@ -1,6 +1,6 @@
 @extends('admin.template')
 @section('content')
-
+<title>dotiU™-Administrador-Mapa</title>
 
 
 
