@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
 
-<a href="home"> <img id="logo" src="/img/logo.png" width="15%" class="img-responsive" alt="Imagen responsive"></a>
+<a href="inicio"> <img id="logo" src="/img/logo.png" width="15%" class="img-responsive" alt="Imagen responsive"></a>
 
     </div>
 
