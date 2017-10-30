@@ -8,7 +8,7 @@ extends('home.template')
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Galeria</title>
+    <title>dotiU™-Galería</title>
   </head>
   <body>
     <section class="container">

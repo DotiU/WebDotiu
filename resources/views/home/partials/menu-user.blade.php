@@ -18,7 +18,7 @@
 		</a>
 		<ul class="dropdown-menu" role="menu" id="children">
 			<li><a href="{{'login'}}">Iniciar sesión</a></li>
-			<li><a href="{{'registro'}}">Registrarse</a></li>
+			<li><a href="{{ url('/register') }}">Registrarse</a></li>
 
 		</ul>
 	</li>

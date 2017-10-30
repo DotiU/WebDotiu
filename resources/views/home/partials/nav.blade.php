@@ -15,7 +15,7 @@
 
 <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav " id=navegacion>
-<li><a href="home">Inicio</a></li>
+<li><a href="inicio">Inicio</a></li>
          <li><a href="acoso">Acoso Callejero CR</a></li>
            <li><a href="mapa">Mapa en vivo</a></li>
            <li><a href="foro">Foro Abuso CR</a></li>

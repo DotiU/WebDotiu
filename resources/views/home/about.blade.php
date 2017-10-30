@@ -2,7 +2,7 @@
 @section('content')
 <!DOCTYPE html>
 
-<title>About us</title>
+<<title>dotiU™-Quiénes somos</title>
 <img src="/img/grupo.jpg" width="100%" class="img-responsive" alt="">
 <div class="caja1" >
   <h1 class="titulo">Equipo</h1>

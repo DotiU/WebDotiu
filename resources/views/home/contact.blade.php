@@ -1,5 +1,6 @@
 @extends('home.template')
 @section('content')
+<title>dotiU™-Contacto</title>
 <div class="imagen-contacto">
 
 	<form class="form-contact" action="/enviarContacto" method="post">

@@ -1,6 +1,6 @@
 @extends('home.template')
 @section('content')
-<title>@yield('Foro')</title>
+<title>dotiU™-Foro</title>
 
 
   <div class="video-responsive">

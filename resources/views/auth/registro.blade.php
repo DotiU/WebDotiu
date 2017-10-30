@@ -41,7 +41,13 @@
         <input type="text" name="last_name" id="lastname" tabindex="1" class="form-control" placeholder="Apellidos" value="">
     </div>
     <div class="form-group">
-        <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Correo Electronico" value="">
+      <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
+
+      @if ($errors->has('email'))
+          <span class="help-block">
+              <strong>{{ $errors->first('email') }}</strong>
+          </span>
+      @endif
     </div>
     <div class="form-group">
         <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Contraseña">

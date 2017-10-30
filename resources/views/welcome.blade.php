@@ -1,7 +1,7 @@
 @extends('home.template')
 @section('content')
 
-<title>dotiU™</title>
+<title>dotiU™-Inicio</title>
   <img src="img/img-publicidad.jpg" class="img-responsive " alt="" height="25%">
 <div class="container" id='contenedor-centrado' >
 

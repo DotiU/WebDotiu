@@ -54,7 +54,7 @@ Auth::routes();
 Route::get("contact", function(){
    return View::make('home/contact');
 });
-Route::get('home', function () {
+Route::get('inicio', function () {
     return view('welcome');
 });
 Route::get('about', function () {
@@ -137,3 +137,7 @@ Route::get('logout',[
   'as'=> 'logout',
   'uses'=>'Auth\LoginController@logout'
 ]);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

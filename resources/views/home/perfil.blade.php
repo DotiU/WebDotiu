@@ -1,6 +1,7 @@
 @extends('home.template')
 @section('content')
 @if(Auth::check())
+<title>dotiU™-Perfil Usuario</title>
 <div class="container text-center">
 
 
