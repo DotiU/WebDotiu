@@ -6,7 +6,7 @@
   <div class="page-header">
     <h1>
       <i class="fa fa-comments"></i>
-      FORO ABUSO CR <a href="" class="btn btn-info"><i class="fa fa-plus-circle"></i>&nbsp Mensaje</a>
+      FORO ABUSO ja CR <a href="" class="btn btn-info"><i class="fa fa-plus-circle"></i>&nbsp Mensaje</a>
     </h1>
   </div>
   <div class="page">
