@@ -4,10 +4,10 @@
 footer {
   background-color: #525252;
   text-align: center;
-  
+
   margin-bottom: 10;
   width: 100%;
-  position:absolute;
+  position:relative;
     bottom: 0 !important;
 
    -webkit-box-sizing:border-box;

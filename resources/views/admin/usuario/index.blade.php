@@ -25,7 +25,7 @@
                             <th>Usuario</th>
                             <th>Correo</th>
                             <th>Tipo</th>
-                            <th>Activo</th>
+                            <th>Fecha Registro</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -46,7 +46,7 @@
                                 <td>{{ $user->user }}</td>
                                 <td>{{ $user->email }}</td>
                                 <td>{{ $user->type }}</td>
-                                <td>{{ $user->active == 1 ? "Si" : "No" }}</td>
+                                <td>{{ $user->created_at}}</td>
                             </tr>
                         @endforeach
                     </tbody>
