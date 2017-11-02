@@ -44,4 +44,20 @@ public function store(Request $request)
 return Redirect::to('admin/mensaje');
   }
 
+  public function edit($id){
+      return view("admin/mensaje.edit", ["mensajes"=>Mensaje::findOrFail($id)]);
+     }
+
+     public function update(UsuarioFormRequest $request, $id){
+      $mensajes= Mensajes::findOrFail($id);
+      $mensajes->titulo=$request->get('titulo');
+        $mensajes->mensaje=$request->get('mensaje');
+          $mensajes->usuario=$request->get('usuario');
+
+      $user->update();
+       return Redirect::to('admin/mensaje');
+
+     }
+
+
 }

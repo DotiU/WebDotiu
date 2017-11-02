@@ -1,4 +1,4 @@
-@extends('home.template')
+@extends('admin.template')
 
 @section('content')
 
@@ -6,7 +6,7 @@
 		<div class="page-header">
 			<h1>
 				<i class="fa fa-users "></i>
-				Usuarios <small>[Agregar Usuario]</small>
+				FORO <small>[Agregar Conversacion al Foro]</small>
 			</h1>
 		</div>
 
@@ -16,30 +16,27 @@
                 <div class="page">
 
 
-								     {!! Form::open(['action'=>'Admin\AdminUserController@store']) !!}
+								     {!! Form::open(['action'=>'AdminMensajeController@store']) !!}
+										 <div class="form-group">
+										 		<label for="titulo">Titulo:</label>
+
+										 	<input type="text" name="titulo" class="form-control" placeholder="Titulo....">
+										 </div>
 
 										 <div class="form-group">
-									 		<label for="nombre">
-									 			Nombre
-									 		</label>
-									 		<input type="text" name="nombre" class="form-control" placeholder="Nombre....">
-									 	</div>
-									 	<div class="form-group">
-									 		<label for="descripcion">
-									 			Descripción
-									 		</label>
-									 		<input type="text" name="descripcion" class="form-control" placeholder="Descripcion....">
-									 	</div>
+										 		<label for="mensaje">Mensaje:</label>
 
-<div class="form-group">
-		<label for="color">Color:</label>
+										 <input type="text" name="mensaje" class="form-control" placeholder="Mensaje....">
+										 </div>
 
-		<input type="color" name="color" class="form-control">
-</div>
+										 <select name="usuario">
+										 <option>{{ Auth::user()->user }}</option>
+										 <option>Anónimo</option>
+										 </select>
 
 <div class="form-group">
 		<button type="submit" class="btn btn-primary">Guardar</button>
-		<a href="/admin/categoria" class="btn btn-warning">Cancelar</a>
+		<a href="/admin/home" class="btn btn-warning">Cancelar</a>
 </div>
 
 

@@ -33,6 +33,10 @@ Route::get('usuario/create', function () {
         return View::make('admin/usuario/create');
 });
 
+Route::get('mensaje/create', function () {
+        return View::make('admin/mensaje/create');
+});
+
 
 Route::get('foro', [
     'uses' => 'MensajeController@store'
