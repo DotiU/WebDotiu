@@ -89,7 +89,6 @@ Route::get('mapa', function () {
         return View::make('home/mapa');
 });
 
-Route::get('mapa','MapaController@index');
 
 Route::get('/login', function () {
     return view('login');
