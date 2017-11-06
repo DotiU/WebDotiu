@@ -13,8 +13,14 @@
     <!--se requiere de jquery y api de google maps con su apikey en este caso estarias utilizando la misma de la app-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+    <script src=" https://maps.googleapis.com/maps/api/js?key=AIzaSyC3RcTZzgQ7DxNqxanymSNSB8u51KxRrhk&callback=initMap"></script>
     <script>
+    
+    
+ 
+    
+    
+    
   //se requiere de este metodo para probar geolocalizacion por navegador y gps y si no esta disponible genera el rreporte de error-->
 
       function initGeolocation() {
