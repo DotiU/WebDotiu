@@ -38,8 +38,8 @@
              </td>
               <td>{{ $mensaje->titulo }}</td>
               <td>{{ $mensaje->mensaje }}</td>
-              <td>{{ $mensaje->nombreUsuario}}</td>
-              <td>{{ $mensaje->fecha }}</td>
+              <td>{{ $mensaje->usuario}}</td>
+              <td>{{ $mensaje->created_at}}</td>
 
             </tr>
 

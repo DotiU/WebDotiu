@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Demo para implementar Dotiu en web</title>
+    <title>dotiU™-Mapa</title>
     <style>
       body,html {height:100%}
 
