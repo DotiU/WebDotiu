@@ -117,4 +117,5 @@
         </div>
     </div>
 </div>
+<div class="space-register"></div>
 @endsection

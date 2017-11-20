@@ -21,7 +21,7 @@
 
 
     <div class="col-lg-4">
-      <img  src="/img/emulador1.png" alt="" width="60%" class="img-responsive" alt="Imagen responsive" id='emulador'>
+      <img  src="/img/emulador1.png" class="img-responsive" alt="Imagen responsive" id='emulador'>
 
     </div>
 

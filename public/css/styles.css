@@ -39,6 +39,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 /**
@@ -1177,3 +1178,7 @@ box-shadow: 0 10px 6px -6px #777;
 #contenedor-centrado{
   margin: 0 6% auto auto;
 }
+
+
+
+
