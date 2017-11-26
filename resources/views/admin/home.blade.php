@@ -47,12 +47,16 @@
                 <div class="panel">
                     <i class="fa fa-commenting-o icon-home"></i>
                     <a href="/admin/contacto" class="btn btn-primary btn-block btn-home-admin" id='botones-admin'>MENSAJES</a>
+                    
                 </div>
             </div>
-
+            
         </div>
-
+        
+        
+        
     </div>
-    <hr>
-
+    
+    <h2 style="color:white">Hola</h2>
+    <h6 style="color:white">Hola</h6>
 @stop

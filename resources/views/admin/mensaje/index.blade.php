@@ -6,7 +6,7 @@
   <div class="page-header">
     <h1>
       <i class="fa fa-comments"></i>
-      FORO ABUSO ja CR <a href="mensaje/create" class="btn btn-info"><i class="fa fa-plus-circle"></i>&nbsp Mensaje</a>
+      FORO ABUSO CR <a href="mensaje/create" class="btn btn-info"><i class="fa fa-plus-circle"></i>&nbsp Mensaje</a>
     </h1>
   </div>
   <div class="page">
@@ -51,5 +51,10 @@
   </div>
 <a href="/admin/home"><button class="btn btn-primary" type="button" name="button"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i>&nbsp Menú Principal</button></a>
 </div>
+
+<h1 style="color:white">Hola</h1>
+<h1 style="color:white">Hola</h1>
+<h1 style="color:white">Hola</h1>
+<h4 style="color:white">Hola</h4>
 
 @stop
