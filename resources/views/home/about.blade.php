@@ -4,7 +4,7 @@
 
 <title>dotiU™-Quiénes somos</title>
 <div style="width:100%;">
-    <img src="/img/grupo.jpg" width="100%" class="img-responsive" alt="" style="height:802px">
+    <img src="/img/grupo.jpg" width="100%" class="img-responsive" alt="" style="height:900px">
 </div>
 <div>
 
