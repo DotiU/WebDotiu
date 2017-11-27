@@ -630,8 +630,7 @@ footer p {
 .titulo{
   padding-top: 1%;
   text-align: center;
-  color: #fff;
-  font-size: 3em;
+  color:#fff;
   font-family: "Source Sans Pro";
   }
 .contenedor{
@@ -642,9 +641,6 @@ footer p {
     margin-top: 2%;
     font-size: 2em;
     font-family: "Source Sans Pro";
-    .margin-left: 1%;
-    color: white;
-    color: #4d4d4d;
     text-align: center;
   }
   .subtitulo{

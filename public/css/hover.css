@@ -2648,8 +2648,7 @@
 }
 
 /* Bubble Bottom */
-.hvr-bubble-bottom {
-  display: inline-block;
+.hvr-bubble-bottom:hover{     
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
