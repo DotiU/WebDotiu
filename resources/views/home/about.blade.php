@@ -14,9 +14,9 @@
     </div>
 
     <section class="container">
-        <p class="parrafo">El proyecto dotiU fue desarrollo sin fines de lucro por dos grupos de estudiantes de tercer
+        <p class="parrafo">El proyecto dotiU fue desarrollado sin fines de lucro por dos grupos de estudiantes de tercer
       año de la carrera de Informática y Tecnología Multimedia de la Universidad de Costa Rica
-      que trabajaron en conjunto, uno se encargó del desarrollo de la aplicación y otro de la página web.
+      que trabajaron en conjunto: uno se encargó del desarrollo de la aplicación y otro de la página web.
        </p>
     </section>
 
