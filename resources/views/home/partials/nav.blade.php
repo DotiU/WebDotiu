@@ -15,19 +15,18 @@
 
 <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav " id=navegacion>
-<li><a href="inicio">Inicio</a></li>
-         <li><a href="acoso">Acoso Callejero CR</a></li>
-           <li><a href="mapa">Mapa en vivo</a></li>
-           <li><a href="foro">Foro Abuso CR</a></li>
-             <li><a href="about">Quiénes somos</a></li>
-            <li><a href="galeria">Galería y Apoyo Dotiu</a></li>
-           <li><a href="contact">Contáctenos</a></li>
+<li><a href="inicio" class="nav-link active">Inicio</a></li>
+         <li><a href="acoso" class="nav-link">Acoso Callejero CR</a></li>
+           <li><a href="mapa" class="nav-link">Mapa en vivo</a></li>
+           <li><a href="foro" class="nav-link">Foro Abuso CR</a></li>
+             <li><a href="about" class="nav-link">Quiénes somos</a></li>
+            <li><a href="galeria" class="nav-link">Galería y Apoyo Dotiu</a></li>
+           <li><a href="contact" class="nav-link">Contáctenos</a></li>
 
            @include('home.partials.menu-user')
 
       </ul>
 
     </div>
-        </div>
   </div>
 </nav>
