@@ -13,10 +13,10 @@
 
 <body>
 
-  <div class="container-fluid">
+  <div class="container">
   <section class="row" id="first-row">
-      <h3>¿Qué es el acoso sexual callejero (ASC)?</h3>
-        <div class="col-lg-4">
+      <h3 class="hvr-back-pulse" style="text-align: center">¿Qué es el acoso sexual callejero (ASC)?</h3>
+        <div class="col-lg-4 hvr-pulse-shrink">
         <img src="/img/acoso-icon.png" id='imgAcoso' width="30%" class="img-responsive" alt="Imagen responsive">
           </div>
           <div class="col-xs-12 col-sm-8 col-md-8">
@@ -31,7 +31,7 @@
     </section>
 
     <section class="main row" id="second-row">
-      <h3>Consecuencias del Acoso Sexual Callejero</h3>
+      <h3 class="hvr-back-pulse">Consecuencias del Acoso Sexual Callejero</h3>
       <div class="col-lg-1"></div>
       <div class="col-xs-12 col-sm-8 col-md-7">
         <p>Puede producir un gran número de efectos mentales negativos en las víctimas. <br><br>
@@ -40,14 +40,14 @@
           Generea una respuesta de alerta exagerada en las víctimas. <br><br>
           Efectos negativos en la salud de las víctimas, como dolores de cabeza o problemas gastrointestinales.</p>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 hvr-pulse-shrink">
         <img src="/img/mujer-icon.png"  id='imgAcoso' width="28%" class="img-responsive" alt="Imagen responsive">
       </div>
     </section>
 
     <section class="row" id="third-row">
-      <h3>Acoso Sexual Callejero en Costa Rica</h3>
-      <div class="col-lg-4">
+      <h3 class="hvr-back-pulse" style="text-align: center">Acoso Sexual Callejero en Costa Rica</h3>
+      <div class="col-lg-4 hvr-pulse-shrink">
         <img src="/img/stop-icon.png" id='imgAcoso'  width="30%" class="img-responsive" alt="Imagen responsive">
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8">

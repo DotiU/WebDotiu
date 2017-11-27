@@ -36,4 +36,12 @@
 
 <p><a class="btn btn-primary" id='botonInfo' href="{{'http://localhost:8000/'}}"> <i class="fa fa-chevron-circle-left"></i>&nbsp Regresar</a></p>
 </div>
+
+<h1 style="color:white">Hola</h1>
+<h1 style="color:white">Hola</h1>
+<h1 style="color:white">Hola</h1>
+<h1 style="color:white">Hola</h1>
+<h2 style="color:white">Hola</h2>
+<h6 style="color:white">Hola</h6>
+
 @stop

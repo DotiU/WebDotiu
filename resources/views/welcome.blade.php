@@ -3,7 +3,7 @@
 
 <title>dotiU™-Inicio</title>
   <img src="img/img-publicidad.jpg" class="img-responsive " alt="" height="25%">
-<div class="container" id='contenedor-centrado' >
+<div class="container">
 
 
   <div class="row" id='content-home'>
@@ -21,7 +21,7 @@
 
 
     <div class="col-lg-4">
-      <img  src="/img/emulador1.png" alt="" width="60%" class="img-responsive" alt="Imagen responsive" id='emulador'>
+      <img  src="/img/emulador1.png" alt="" width="42%" class="img-responsive" alt="Imagen responsive" id='emulador' style="margin-top:-70px">
 
     </div>
 
@@ -52,7 +52,7 @@
   <section class="linea">
     <div class="row">
 
-      <div class="col-lg-4">
+      <div class="col-lg-4 hvr-pulse-shrink">
           <img src="/img/acoso.png" class="img-responsive" alt="" width="30%" id="imgAcoso" >
       </div>
 
@@ -65,14 +65,15 @@
           en la calle o en el transporte público.</p>
 
 
-          <a href="acoso">Ver más</a>
+          <a href="acoso" class="hvr-pop">Ver más</a>
+    </div>
     </div>
   </section>
-</div>
+
 
 <div class="row" >
 
-  <div class="col-lg-4">
+  <div class="col-lg-4 hvr-pulse-shrink">
       <img src="/img/stop-icon.png" class="img-responsive" alt="" width="30%" id="imgAcoso" >
   </div>
 
@@ -81,26 +82,25 @@
 <h1>Alto al acoso callejero</h1>
   <h2>2017-09-14</h2>
   <p>Los piropos callejeros han comenzado a ser un problema un para mi, ultimamente suceden demasiado seguido y ya no aguanto la rabia, la frustracion y la sensacion de inferioridad, me da miedo salir a la calle sola por que se que me van a denigrar. Necesito algun consejo por favor, de verdad esta arruinando mi vida ):</p>
-<a href="foro">Ver más</a>
+<a href="foro" class="hvr-pop">Ver más</a>
 
 </div>
-</section>
 </div>
 
 <div class="row" id="galeria-home">
-  <div class="col-sm-4">
-    <center><p>Campaña contra el acoso callejero</p></center>
+  <div class="col-sm-4  hover-effect">
+    <center><a href="galeria">Campaña contra el acoso callejero</a></center>
     <img src="img/img-acoso2.jpeg" class="img-responsive">
     </div>
 
 
-  <div class="col-sm-4">
-    <center><p>Campaña contra el acoso callejero</p></center>
+  <div class="col-sm-4 hover-effect">
+    <center><a href="galeria">Campaña contra el acoso callejero</a ></center>
   <img src="img/img-acoso3.jpeg" class="img-responsive">
   </div>
 
-  <div class="col-sm-4">
-    <center><p>Campaña contra el acoso callejero</p></center>
+  <div class="col-sm-4 hover-effect">
+    <center><a href="galeria">Campaña contra el acoso callejero</a ></center>
    <img src="img/img-acoso4.jpeg" class="img-responsive">
  </div>
 

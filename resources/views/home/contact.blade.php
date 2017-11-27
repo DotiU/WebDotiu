@@ -3,7 +3,7 @@
 <title>dotiU™-Contacto</title>
 <link rel="stylesheet" href="{{asset('css/contacto.css')}}">
 
-<div class="container" "imagen-contacto">
+<div class="container-fluid" "imagen-contacto">
 <form action="/enviarContacto" method="post">
 		{{ csrf_field() }}
 	<div class="row">
